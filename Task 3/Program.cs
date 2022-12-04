@@ -11,7 +11,8 @@ if (A >=100 && A < 1000)
 {
     int rez = A/100;
     int rez2 = A%10;
-    System.Console.WriteLine($"{A} = {rez}{rez2}");
+    int Rez = rez*10+rez2;
+    System.Console.WriteLine($"{A} = {Rez}");
 }
 else
 {
